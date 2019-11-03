@@ -92,11 +92,12 @@ body{
 .button {
     width: 164px;
     height: 60px;
+    background-color: rgba(255, 255, 255, 0);
     color: #626262;
     font-size: 20px;
     line-height: 24px;
     font-family: 'Playfair Display', serif;
     margin-bottom: 70px;
     padding: 0;
+    border: 1px solid #626262;
 }
-
