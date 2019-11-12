@@ -1,0 +1,262 @@
+html{
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0px;
+
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.page-header {
+    padding-top: 34px;
+    padding-bottom: 92px;
+
+}
+
+.logo {
+    list-style: none;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #555252;
+    text-transform: uppercase;
+    line-height: 32px;
+    float: left;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #555252;
+    display: block;
+}
+
+.logo::first-letter {
+    color: #1abc9c;
+    font-weight: 900;
+}
+
+
+.site-navigation li {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+.site-navigation li:not(:last-child) {
+    margin-right: 30px;
+    }
+
+
+.site-navigation {
+    font-size: 14px;
+    font-family: "OpenSans", sans-serif;
+    font-weight: bold;
+    float: right;
+    text-transform: uppercase;
+    }
+
+.site-navigation a {
+    text-decoration: none;
+    color: #0f0101;
+    display: block;
+}
+
+.site-navigation a:hover {
+    color: #1abc9c;
+}
+
+
+
+
+
+.products h2,
+.news h2 {
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #515151;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+.news h2 {
+    margin-bottom: 82px;
+}
+
+.products h2::after,
+.news h2::after {
+    content: "";
+    display: block;
+    width: 165px;
+    height: 7px;
+    margin: 20px auto 0;
+    background-color: #1abc9c;
+  }
+
+.products-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.products-list-item {
+    width: 255px;
+    float: left;
+   margin-right: 30px;
+   margin-bottom: 30px;
+    }
+
+.products-list-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.products a {
+    display: block;
+}
+
+.products img,
+.news img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.products .img {
+    background-color: rgb(233, 240, 253);
+}
+.products {
+    margin-bottom: 92px;
+}
+    
+    
+.products-list-item h3,
+.products-list-item p {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 32px;
+    float: left;
+}
+
+.products .name {
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.products .name a {
+    padding-left: 13px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+.products .price {
+    width: 55px;
+    text-align: center;
+    background-color: #8c8c8c;
+}
+
+.name-value {
+    background-color: #323232;
+}
+
+.products-list li:hover .name-value {
+    background-color: #1abc9c;
+}
+
+
+.news article {
+    color: #555252;
+    width: 350px;
+    float: left;
+    margin-bottom: 80px;
+}
+
+
+.news article:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.news img {
+    margin-bottom: 14px;
+}
+.news h3 {
+    font-family: "OpenSans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    line-height: 26px;
+}
+.news h3::after {
+    content: "";
+    display: block;
+    width: 135px;
+    height: 3px;
+    margin: 9px auto 0;
+    background-color: #4ec6ab;
+}
+
+.news p {
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    line-height: 26px;
+}
+
+.news a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    background-color: #4ec6ab;
+    width: 160px;
+    text-align: center;
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    border-radius: 3px;
+}
+
+
+
+.visually-hidden:not(focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden{
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
