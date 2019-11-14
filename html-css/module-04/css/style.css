@@ -68,10 +68,11 @@ html{
 
 .site-navigation {
     font-size: 14px;
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: bold;
     float: right;
     text-transform: uppercase;
+    line-height: 32px;
     }
 
 .site-navigation a {
@@ -202,7 +203,7 @@ html{
     margin-bottom: 14px;
 }
 .news h3 {
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 24px;
@@ -218,7 +219,7 @@ html{
 }
 
 .news p {
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 12px;
@@ -232,7 +233,7 @@ html{
     background-color: #4ec6ab;
     width: 160px;
     text-align: center;
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 50px;
