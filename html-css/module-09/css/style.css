@@ -1,0 +1,249 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.header-page {
+    background: url(../img/people.jpg) no-repeat center/cover;
+}
+
+.header-page,
+.partners {
+    text-align: center;
+}
+
+.site-navigation a,
+.logo,
+.header-content,
+.find-partner {
+    color: #ffffff;
+}
+
+.initialization {
+    min-width: 85px;
+    border: 3px solid transparent;
+    border-radius: 25px;
+    transition: border 200ms linear;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+}
+
+.initialization:hover {
+    border: 3px solid #ffffff;
+}
+
+.logo {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.find-partner {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    background-color: #ff4e50;
+    border-radius: 25px;
+}
+
+.partners-title {
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+    color: #333333;
+}
+
+.photo-partner-item {
+    width: 122px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.photo-partner-item img {
+    border-radius: 50%;
+}
+
+
+.photo-partner-item::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    background: var(--bg-icon) no-repeat center, var(--bg-color);
+}
+
+.icon-1 {
+    --bg-icon: url(../img/icon-1.png);
+    --bg-color: #ff4e50;
+}
+
+.icon-2 {
+    --bg-icon: url(../img/icon-2.png);
+    --bg-color: #ffa507;
+}
+
+.icon-3 {
+    --bg-icon: url(../img/icon-3.png);
+    --bg-color: #1cd7ad;
+}
+
+.icon-4 {
+    --bg-icon: url(../img/icon-4.png);
+    --bg-color: #4e73db;
+}
+
+.partner-name {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    color: #333333;
+}
+
+.partner-description {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 17px;
+    color: #666666;
+}
+
+.other-partners {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+    border-radius: 25px;
+}
+
+.pb-other-partners {
+    padding-bottom: 57px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 320px;
+    }
+
+    .ptb-nav {
+        padding: 20px 0 110px;
+    }
+
+    .pb-header-content{
+        padding-bottom: 136px;
+    }
+
+    .ptb-sub-title {
+        padding: 12px 0 16px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+    .ptb-partners-title {
+        padding: 65px 10px 16px;
+    }
+
+    .mb-partner-item [class*="col-"] {
+        margin-bottom: 25px;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .ptb-nav-md {
+        padding: 37px 0 144px;
+    }
+    
+    .pb-header-content-md {
+        padding-bottom: 234px;
+    }
+    
+    .title {
+        font-size: 52px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        line-height: 62px;
+    }
+    
+    .sub-title {
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        line-height: 29px;
+    }
+    
+    .ptb-sub-title-md {
+        padding: 24px 0 31px;
+    }
+        
+    .find-partner {
+        width: 225px;
+    }
+
+    .ptb-partners-title-md {
+        padding: 71px 0 31px;
+    }
+
+    .other-partners {
+        width: 191px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .mb-partner-item-md [class*="col-"] {
+        margin-bottom: 59px;
+    }
+
+    .mb-partner-item-md [class*="col-"]:nth-last-child(-n+2) {
+        margin-bottom: 37px;
+    }
+}
+
+@media (min-width: 992px) {
+    .mb-partner-item-lg [class*="col-"] {
+        margin-bottom: 37px;
+    }
+}
+
+
+
